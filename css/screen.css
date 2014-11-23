@@ -1,0 +1,119 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+a {
+  color: #6495ED;
+}
+.container {
+  width: 980px;
+  margin: auto;
+}
+.clear {
+  clear: both;
+}
+#navbar {
+  height: 40px;
+  min-width: 980px;
+  line-height: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+#navbar a {
+  text-decoration: none;
+}
+#navbar div.navbar-brand {
+  float: left;
+  font-size: 18px;
+  margin-right: 20px;
+}
+#navbar div.navbar-left {
+  float: left;
+}
+#navbar div.navbar-right {
+  float: right;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#navbar ul li {
+  display: inline-block;
+}
+#navbar ul li a {
+  display: block;
+  padding: 0px 10px 0px 10px;
+  font-weight: 500;
+}
+#navbar ul li a:hover {
+  background-color: #f9f9f9;
+}
+#header {
+  background-color: #6495ED;
+  overflow: auto;
+  color: #fff;
+  margin-bottom: 10px;
+}
+#header p {
+  line-height: 1.6em;
+  text-align: justify;
+  text-indent: 20px;
+}
+#content .products .product {
+  float: left;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #eee;
+}
+#content .products .product .product-name {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
+#content .products .product .product-price {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  color: #B22222;
+  font-weight: bold;
+}
+#content .products .product .product-cart {
+  text-align: center;
+  display: block;
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-top: 15px;
+}
+#content .cart table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#content .cart td,
+#content .cart th {
+  border: 1px solid #eee;
+  padding: 10px;
+}
+#content .form-address {
+  border: 1px solid #eee;
+  padding: 10px;
+}
+#content form .form-group {
+  padding: 10px;
+}
+#content form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+#content footer {
+  font-size: .8em;
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+  padding: 10px;
+}
+#content footer p {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pia",
+  "version": "0.0.0",
+  "authors": [
+    "David Moravek <david.moravek@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "~3.0.2"
+  }
+}
